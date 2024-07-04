@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    body{
+        @apply font-body;
+    }
+    h1,h2,h3{
+        @apply font-display text-gray-800 font-medium;
+    }
+     .container{
+        @apply px-4 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-10;
+    } 
+    /* .gradient-hover-outer{
+        @apply bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 p-[2px] mr-5 ml-5;
+    }
+    .gradient-hover-inner{
+
+    } */
+}
